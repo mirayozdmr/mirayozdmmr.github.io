@@ -19,7 +19,7 @@ ul {
   }
   
   li a:hover:not(.active) {
-    background-color: #111;
+    background-color: rgba(2, 0, 0, 0.676);
   }
   
   .active {
