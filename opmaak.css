@@ -27,13 +27,19 @@ ul {
   }
   #body1 {
        background-color:cadetblue;
-   h2 color: azure;
-    p color: azure;
+   h2 {color: azure;}
+    p {color: azure;}
 
   }
 
   #body2 {
     background-color: cadetblue;
-   h2 color: azure;
-   p color: azure;
+   h2{ color: azure;}
+   p {color: azure;}
   }
+
+#body3 {
+  background-color: cadetblue;
+ h2 {color: azure;}
+ p {color: azure;}
+}
