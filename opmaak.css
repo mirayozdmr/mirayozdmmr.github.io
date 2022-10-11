@@ -26,6 +26,14 @@ ul {
     background-color: #48b0dab1;
   }
   #body1 {
-       background-color: azure;
-   h2 color: cadetblue;
+       background-color:cadetblue;
+   h2 color: azure;
+    p color: azure;
+
+  }
+
+  #body2 {
+    background-color: cadetblue;
+   h2 color: azure;
+   p color: azure;
   }
