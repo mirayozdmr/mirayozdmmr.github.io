@@ -29,9 +29,12 @@ ul {
   #body1 {
    background-color:cadetblue;
     }
+
+  #body2 { background-color: cadetblue;
+  }
  h1{font-family: Verdana, Geneva, Tahoma, sans-serif;} 
 
-#body3 {
+ #body3 {
   background-color: cadetblue;
  
 }
