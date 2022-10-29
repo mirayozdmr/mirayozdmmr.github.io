@@ -23,19 +23,13 @@ ul {
   }
   
   .active {
-    background-color: #48b0dab1;
+    background-color: #e5e9ebb1;
   }
+ 
   #body1 {
-       background-color:cadetblue;
-  
-
-  }
-
-  #body2 {
-    background-color: cadetblue;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-   
-  }
+   background-color:cadetblue;
+    }
+ h1{font-family: Verdana, Geneva, Tahoma, sans-serif;} 
 
 #body3 {
   background-color: cadetblue;
