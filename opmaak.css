@@ -9,16 +9,16 @@ body {
 /* Style the header */
 header {
   background-color: cadetblue;
-  padding: 30px;
+  padding: 5px;
   text-align: center;
-  font-size: 35px;
+  font-size: 25px;
   color: white;
 }
 
 /* Create two columns/boxes that floats next to each other */
 nav {
   float: left;
-  width: 30%;
+  width: 20%;
   height: 300px; /* only for demonstration, should be removed */
   background:  rgb(238, 255, 175);
   padding: 20px;
@@ -57,8 +57,8 @@ nav ul {
 article {
   float: left;
   padding: 20px;
-  width: 70%;
-  background-color:seagreen;
+  width: 80%;
+  background-color:navy;
   height: 300px; /* only for demonstration, should be removed */
 }
 
@@ -78,9 +78,6 @@ footer {
 }
 
  
-
- 
-
   #image1 {
      width: 320px; 
     height: 200px;
