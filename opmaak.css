@@ -58,7 +58,7 @@ article {
   float: left;
   padding: 20px;
   width: 80%;
-  background-color:navy;
+  background-color:rgb(76, 76, 173);
   height: 300px; /* only for demonstration, should be removed */
 }
 
