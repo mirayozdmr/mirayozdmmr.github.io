@@ -32,9 +32,16 @@ ul {
 
   #body2 { background-color: cadetblue;
   }
- h1{font-family: Verdana, Geneva, Tahoma, sans-serif;} 
 
  #body3 {
   background-color: cadetblue;
  
+}
+
+.kopje{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: lightskyblue;
+  color: black;
+  padding: 10px;
+
 }
