@@ -82,7 +82,10 @@ footer {
   #body2 { background-color: cadetblue;
   }
 
-  #image1 { width: 320px; height: 200px;
+  #image1 {
+     width: 320px; 
+    height: 200px;
+    float: right;
   }
 
  #body3 {
