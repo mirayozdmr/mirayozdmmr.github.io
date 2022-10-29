@@ -20,6 +20,7 @@ header {
 nav {
   float: left;
   width: 20%;
+  height: 500px;
   background:  rgb(238, 255, 175);
   padding: 20px;
 }
