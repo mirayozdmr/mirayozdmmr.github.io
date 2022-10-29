@@ -3,7 +3,8 @@
 }
 
 body {
-  font-family: Verdana, Geneva, Tahoma, sans-serif
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: cadetblue;
 }
 
 /* Style the header */
@@ -19,7 +20,6 @@ header {
 nav {
   float: left;
   width: 20%;
-  height: 300px; /* only for demonstration, should be removed */
   background:  rgb(238, 255, 175);
   padding: 20px;
 }
@@ -58,8 +58,7 @@ article {
   float: left;
   padding: 20px;
   width: 80%;
-  background-color:rgb(76, 76, 173);
-  height: 300px; /* only for demonstration, should be removed */
+  background-color:cadetblue;
 }
 
 /* Clear floats after the columns */
@@ -71,7 +70,7 @@ section::after {
 
 /* Style the footer */
 footer {
-  background-color: cadetblue;
+  background-color:lightsteelblue;
   padding: 10px;
   text-align: center;
   color: white;
