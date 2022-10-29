@@ -13,6 +13,7 @@ ul {
   li a {
     display: block;
     color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -33,13 +34,13 @@ ul {
   #body2 { background-color: cadetblue;
   }
 
-  #image1 { width: 350px; height: 200px;}
+  #image1 { width: 350; height: 200;}
 
  #body3 {
   background-color: cadetblue;
  }
 #image2{
-   width: 350px; height: 200px;
+   width: 350; height: 200;
 }
 
 .kopje{
