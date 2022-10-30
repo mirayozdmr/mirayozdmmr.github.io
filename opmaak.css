@@ -82,13 +82,14 @@ footer {
   nav, article {
     width: 100%;
     height: auto;
- 
-  #image1{
-     width: 320px; 
-    height: 200px;
-    float: right;
   }
+}
 
+#image1{
+  width: 320px; 
+  height: 200px;
+  float: right;
+}
  
 #image2{
    width: 350px;
