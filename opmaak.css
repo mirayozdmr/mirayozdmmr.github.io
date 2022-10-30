@@ -83,7 +83,7 @@ footer {
     width: 100%;
     height: auto;
  
-  #image1 {
+  #image1{
      width: 320px; 
     height: 200px;
     float: right;
@@ -91,7 +91,7 @@ footer {
 
  
 #image2{
-   width: 320px;
+   width: 350px;
     height: 200px;
     float: right;
 }
