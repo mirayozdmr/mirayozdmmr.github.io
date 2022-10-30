@@ -7,7 +7,7 @@ body {
   background-color: cadetblue;
 }
 
-/* Style the header */
+/* Style de header */
 header {
   background-color: lightsteelblue;
   padding: 10px;
@@ -16,7 +16,7 @@ header {
   color: white;
 }
 
-/* Create two columns/boxes that floats next to each other */
+/* Hiermee onstaan 2 boxen die naats elkaar floaten( eentje is de menubalk en de ander het hoofdartikel) */
 nav {
   float: left;
   width: 20%;
@@ -69,7 +69,7 @@ section::after {
   clear: both;
 }
 
-/* Style the footer */
+/* Style de footer */
 footer {
   background-color:lightsteelblue;
   padding: 10px;
@@ -85,6 +85,7 @@ footer {
   }
 }
 
+/* bepaalt de grootte en positie van de afbeeldingen*/
 #image1{
   width: 320px; 
   height: 200px;
@@ -96,7 +97,7 @@ footer {
     height: 200px;
     float: right;
 }
-
+/*style de kopjes*/
 .kopje{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   background-color: rgb(238, 255, 175);
