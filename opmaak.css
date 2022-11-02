@@ -97,6 +97,12 @@ footer {
     height: 200px;
     float: right;
 }
+#image3{
+  width: 350px;
+   height: 200px;
+   float: right;
+}
+
 /*style de kopjes*/
 .kopje{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
