@@ -24,6 +24,7 @@ nav {
   background:  rgb(238, 255, 175);
   padding: 20px;
 }
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -35,7 +36,7 @@ ul {
   li {
     float: left;
   }
-  
+  /* Style de lijst in het menu*/
   li a {
     display: block;
     color: black;
@@ -49,7 +50,7 @@ ul {
     background-color: rgba(0, 0, 2, 0.58);
   }
   
-/* Style the list inside the menu */
+
 nav ul {
   list-style-type: none;
   padding: 0;
@@ -62,7 +63,7 @@ article {
   background-color:cadetblue;
 }
 
-/* Clear floats after the columns */
+/* zorgt ervoor dat de kolommen de juiste positie behouden */
 section::after {
   content: "";
   display: table;
@@ -97,7 +98,7 @@ footer {
 }
 
 #image4{
-   float: left;
+   float: right;
 }
 
 /*style de kopjes*/
