@@ -1,7 +1,7 @@
 * {
   box-sizing: border-box;
 }
-
+/* style de body*/
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   background-color: cadetblue;
@@ -106,12 +106,8 @@ footer {
    float: right;
    border: 5px;
 }
+
 #image6{
-  
-   float: right;
-   border: 5px;
-}
-#image7{
   float: right;
 }
 /*style de kopjes*/
