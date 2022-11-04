@@ -46,7 +46,7 @@ ul {
     text-decoration: none;
   }
   
-  li a:hover:not(.active) {
+  li a:hover:not(.active) { /* dit is het blokje dat je ziet als je met je muis over de items in het menu gaat*/
     background-color: rgba(0, 0, 2, 0.58);
   }
   
@@ -55,11 +55,11 @@ nav ul {
   list-style-type: none;
   padding: 0;
 }
-
+/* geeft vorm aan de tekst in het article*/
 article {
-  float: left;
-  padding: 20px;
-  width: 80%;
+  float: left; /* zorgt ervoor dat het aan de linkerkant komt te staan*/
+  padding: 20px; /* zorgt ervoor dat er 20 pixels omheen zitten als padding*/
+  width: 80%; /* de breedte*/
   background-color:cadetblue;
 }
 
@@ -81,8 +81,6 @@ footer {
 
 /* bepaalt de grootte en positie van de afbeeldingen*/
 #image1{
-  width: 320px; 
-  height: 200px;
   float: right;
 }
  
@@ -104,7 +102,7 @@ footer {
 #image5{
   
    float: right;
-   border: 5px;
+   
 }
 
 #image6{
