@@ -1,5 +1,5 @@
 * {
-  box-sizing: border-box;
+  box-sizing: border-box; /* hiermee wordt er bepaalt hoe de boxen worden gemeten
 }
 /* style de body*/
 body {
@@ -27,7 +27,7 @@ nav {
 
 ul {
     list-style-type: none;
-    margin: 0;
+    margin: 0; /* ruimte tussen een elemenet en andere elementen*/
     padding: 0;
     overflow: hidden;
     background-color: rgb(238, 255, 175);
@@ -66,7 +66,7 @@ article {
 /* zorgt ervoor dat de kolommen de juiste positie behouden */
 section::after {
   content: "";
-  display: table;
+  display: table; /* bepaalt op welke manier de browser weergeven wordt*/
   clear: both;
 }
 
