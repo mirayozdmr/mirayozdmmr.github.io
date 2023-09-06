@@ -33,9 +33,7 @@ ul {
     background-color: rgb(238, 255, 175);
   }
 
-  li {
-    float: left;
-  }
+ 
   /* Style de lijst in het menu*/
   li a {
     display: block;
