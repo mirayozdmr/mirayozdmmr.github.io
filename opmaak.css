@@ -18,7 +18,7 @@ header {
 
 /* Hiermee onstaan 2 boxen die naats elkaar floaten( eentje is de menubalk en de ander het hoofdartikel) */
 nav {
-  float: none;
+  float: left;
   width: 20%;
   height: 600px;
   background:  rgb(238, 255, 175);
