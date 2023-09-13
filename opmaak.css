@@ -79,13 +79,13 @@ footer {
 
 .navbar{
   overflow: hidden;
-  background-color: hotpink;
+  background-color: cadetblue;
 }
 
 .navbar a {
   float: left;
   font-size: 22px;
-  color: lightpink;
+  color:white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -117,7 +117,7 @@ footer {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: blueviolet;
+  background-color: azure;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgha(o,o,o,o.2);
   z-index: 1;
