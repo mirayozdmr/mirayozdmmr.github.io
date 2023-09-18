@@ -11,21 +11,22 @@
             <h2>Het 3 lagen model</h2>
         </header>
 
-        <section> <!--de section bevat verschillende elementen -->
-            <nav> <!-- hier komt de menubalk--><!--nav betekent dat het verschillende elementen navigeerdt-->
-
-            <ul> <!--Dit is een unorderd list,er onstaat een lijst waarbij de lijst items niet genummerd zijn-->
-            <li><a href="index.html">Home      </a> </li> <!--li staat voor list item-->
-             <li><a href="algemene_informatie.html">Algemene Informatie</a></li>
-             <li><a href="binairstelsel.html">Het Binaire stelsel</a></li>
-            <li><a href="kleurmodellen.html">Kleurmodellen</a></li>
-            <li><a href="bestandsformaten.html">Bestandsformaten</a></li>
-            <li><a href="compressie.html">Compressie</a></li>
-            <li><a href="3.lagen.model.html">3 lagen model</a></li>
-            <li><a href="fysiek.en.logische.laag.html">Fysieke en logische laag </a></li>
-            <li><a href="toepassings.laag.html">Toepassings laag</a></li>
-            </ul>
-        </nav>
+        <div class="navbar">
+            <a href="index.html">Home</a> 
+            <a href="algemene_informatie.html">Algemene Informatie</a>
+            <a href="binairstelsel.html">Het Binaire stelsel</a>
+            <a href="kleurmodellen.html">Kleurmodellen</a>
+            <a href="bestandsformaten.html">Bestandsformaten</a>
+            <a href="compressie.html">Compressie</a>
+           
+            <div class="dropdown">
+               <button class="dropbtn"> 3 lagen model
+                   <i class="fa fa-caret-down"></i>
+               </button>
+               <div class="dropdown-content">
+                   <a href="3.lagen.model.html">3 lagen model.</a>
+                   <a href="fysiek.en.logische.laag.html">Fysieke en logische laag </a>
+                   <a href="toepassings.laag.html">Toepassings laag</a>
 
         <article> <!--Hier komt het belagerijkste stuk informatie te staan-->
              <h1 class="kopje"> Welkom! </h1> <!--de class is een link naar de opmaak css, dit zorgt ervoor dat de kopjes een style hebben--><!--de h1 betekent dat de tekst een grote lettertype heeft-->
@@ -40,7 +41,7 @@
                
              </p>   
         </article>
-        </section>
+        
 
        
     </body>
