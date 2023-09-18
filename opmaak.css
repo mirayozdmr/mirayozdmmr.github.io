@@ -105,12 +105,12 @@ footer {
   outline: none;
   color: white;
   padding: 14px 16px;
-  background-color: tomato;
+  background-color:lightsteelblue;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .navbar a:hover, .dropdon:hover .dropbtn {
-  background-color: forestgreen;
+  background-color: rgb(238, 255, 175);
   color: black;
 }
 
@@ -126,7 +126,7 @@ footer {
 .dropdown-content a{
   float: none;
   color: white;
-  background-color: coral;
+  background-color: lightsteelblue;
   padding: 12px 160px;
   text-decoration: none;
   display: block;
@@ -134,7 +134,7 @@ footer {
 }
 
 .dropdown-content a:hover{
-  background-color: greenyellow;
+  background-color: rgb(238, 255, 175);
   color: black;
 }
 
