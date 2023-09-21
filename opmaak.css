@@ -179,9 +179,9 @@ float: right;
   }
   
 #image9{
-  float: right;
   width: 350px;
-  height: 200px;
+   height: 200px;
+   float: right;
 }
 /*style de kopjes*/
 .kopje{
