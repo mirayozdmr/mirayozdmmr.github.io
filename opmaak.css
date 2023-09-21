@@ -178,6 +178,9 @@ float: right;
   float: right;
   }
   
+#image9{
+  float: right
+}
 /*style de kopjes*/
 .kopje{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
