@@ -76,71 +76,82 @@ footer {
   text-align: center;
   color: white;
 }
+/* Stijlen voor de navbar, die de algemene opmaak van de navigatiebalk definiëren */
 
 .navbar{
   overflow: hidden;
-  background-color: cadetblue;
+  background-color: cadetblue;/* Achtergrondkleur van de navbar */
 }
+/* Stijlen voor de koppelingen binnen de navbar */
 
 .navbar a {
-  float: left;
-  font-size: 22px;
-  color:white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  border-right: 3px black;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  float: left;/* Links uitlijnen van de koppelingen */
+  font-size: 22px;/* Lettergrootte */
+  color:white; /* Tekstkleur */
+  text-align: center;/* Tekst centreren */
+  padding: 14px 16px;/* Binnenste opvulling van de koppelingen (boven/onder en links/rechts) */
+  text-decoration: none; /* Geen onderstreping */
+  border-right: 3px black;/* Rechterrand met zwarte lijn */
+  font-family: Verdana, Geneva, Tahoma, sans-serif;/* Lettertype */
 
-}
-
-.dropdown{
-  float: left;
+/* Stijlen voor het dropdown-menu binnen de navbar */
+.dropdown {
+  float: left; /* Links uitlijnen van het dropdown-menu */
   overflow: hidden;
-  border-right: 3px black;
+  border-right: 3px black; /* Rechterrand met zwarte lijn */
 }
+
+/* Stijlen voor de knop van het dropdown-menu */
 .dropdown .dropbtn {
-  font-size: 22px;
+  font-size: 22px; /* Lettergrootte van de knop */
   border: none;
-  outline: none;
-  color: white;
-  padding: 14px 16px;
-  background-color:lightsteelblue;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  outline: none; /* Verwijder focusrand */
+  color: white; /* Tekstkleur */
+  padding: 14px 16px; /* Binnenste opvulling van de knop */
+  background-color: lightsteelblue; /* Achtergrondkleur van de knop */
+  font-family: Verdana, Geneva, Tahoma, sans-serif; /* Lettertype */
 }
 
-.navbar a:hover, .dropdon:hover .dropbtn {
-  background-color: rgb(238, 255, 175);
-  color: black;
+/* Stijlen voor koppelingen binnen de navbar en het dropdown-menu wanneer ze worden aangeraakt (hover) */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: rgb(238, 255, 175); /* Achtergrondkleur bij hover */
+  color: black; /* Tekstkleur bij hover */
 }
 
+/* Stijlen voor het dropdown-menu-inhoud */
 .dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: azure;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgha(o,o,o,o.2);
-  z-index: 1;
+  display: none; /* Verberg de inhoud standaard */
+  position: absolute; /* Absoluut gepositioneerd in relatie tot de bovenliggende container */
+  background-color: azure; /* Achtergrondkleur van de inhoud */
+  min-width: 160px; /* Minimale breedte van de inhoud */
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2); /* Schaduw voor het dropdown-menu */
+  z-index: 1; /* Z-index om de inhoud bovenop andere elementen te plaatsen */
 }
 
-.dropdown-content a{
-  float: none;
-  color: white;
-  background-color: lightsteelblue;
-  padding: 12px 160px;
-  text-decoration: none;
-  display: block;
-  text-align: left;
+/* Stijlen voor koppelingen binnen het dropdown-menu-inhoud */
+.dropdown-content a {
+  float: none; /* Herstel de zwevende uitlijning van koppelingen */
+  color: white; /* Tekstkleur */
+  background-color: lightsteelblue; /* Achtergrondkleur */
+  padding: 12px 160px; /* Binnenste opvulling van koppelingen (boven/onder en links/rechts) */
+  text-decoration: none; /* Geen onderstreping */
+  display: block; /* Blokweergave om onder elkaar te plaatsen */
+  text-align: left; /* Tekst links uitlijnen */
 }
 
-.dropdown-content a:hover{
-  background-color: rgb(238, 255, 175);
-  color: black;
+/* Stijlen voor koppelingen binnen het dropdown-menu-inhoud wanneer ze worden aangeraakt (hover) */
+.dropdown-content a:hover {
+  background-color: rgb(238, 255, 175); /* Achtergrondkleur bij hover */
+  color: black; /* Tekstkleur bij hover */
 }
 
-.dropdown:hover .dropdown-content{
-  display: block;
+/* Stijlen voor het weergeven van het dropdown-menu-inhoud wanneer de muis over het dropdown-menu zweeft */
+.dropdown:hover .dropdown-content {
+  display: block; /* Toon de inhoud wanneer de muis over het dropdown-menu zweeft */
 }
+
+
+
 }
 /* bepaalt de grootte en positie van de afbeeldingen*/
 #image1{
