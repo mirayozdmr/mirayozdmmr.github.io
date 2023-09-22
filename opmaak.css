@@ -204,3 +204,8 @@ float: right;
   padding: 10px;
 
 }
+/* Stijlen voor de videospeler */
+video {
+  max-width: 100%;
+  height: auto;
+}
