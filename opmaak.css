@@ -76,14 +76,15 @@ footer {
   text-align: center;
   color: white;
 }
-/* Stijlen voor de navbar, die de algemene opmaak van de navigatiebalk definiëren */
 
+/* Stijlen voor de navbar, die de algemene opmaak van de navigatiebalk definiëren */
 .navbar {
   overflow: hidden;
-  background-color:lightsteelblue;
+  background-color:cadetblue;
   border-right: 3px solid lightsteelblue; 
 }
 
+/* stijlt de koppelingen in de navigatiebalk*/
 .navbar a {
   float: left;
   font-size: 22px;
@@ -94,6 +95,7 @@ footer {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+/*stijlt het dropdownmenu */
 .dropdown {
   float: left;
   overflow: hidden;
@@ -101,6 +103,7 @@ footer {
   ; 
 }
 
+/* stijlt het dropdown menu knop*/
 .dropdown .dropbtn {
   font-size: 22px;  
   border: none;
@@ -112,11 +115,13 @@ footer {
   margin: 0;
 }
 
+/* stijlt de navigatiebalk en het dropdownmenu als die wordt aangeraakt*/
 .navbar a:hover, .dropdown:hover .dropbtn {
   background-color: lightblue;
   color: rgb(238, 255, 175) ;
 }
 
+/* stijlt de inhoud van het dropdownmenu*/
 .dropdown-content {
   display: none;
   position: absolute;
@@ -126,6 +131,7 @@ footer {
   z-index: 1;
 }
 
+/*stijlt de koppelingen van de dropdown inhoud*/
 .dropdown-content a {
   float: none;
   color: white;
@@ -136,11 +142,13 @@ footer {
   text-align: left;
 }
 
+/*stijlt de koppelingen van de dropdown inhoud wanneer die wordt aangeraakt*/
 .dropdown-content a:hover {
   background-color:  rgb(238, 255, 175);
   color: lightsteelblue;
 }
 
+/* Stijlen voor het weergeven van het dropdown-menu-inhoud wanneer de muis over het dropdown-menu zweeft */
 .dropdown:hover .dropdown-content {
   display: block;
 }
