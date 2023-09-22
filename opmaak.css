@@ -80,7 +80,7 @@ footer {
 
 .navbar {
   overflow: hidden;
-  background-color: #333;
+  background-color:lightsteelblue;
   border-right: 3px solid lightsteelblue; 
 }
 
@@ -138,7 +138,7 @@ footer {
 
 .dropdown-content a:hover {
   background-color:  rgb(238, 255, 175);
-  color: black;
+  color: lightsteelblue;
 }
 
 .dropdown:hover .dropdown-content {
